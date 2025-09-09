@@ -16,12 +16,11 @@ When the object moves upward, it triggers a key press (spacebar) using `pyautogu
 - NumPy  
 - PyAutoGUI  
 
-Install dependencies with:
-```bash
-pip install opencv-python numpy pyautogui
-
 ## Demo Overview
 To demonstrate the project in action:
 I opened Pinterest in a web browser and used a yellow paper as a control object.
 By moving the yellow paper up and down in front of the webcam, the script detects the movement and automatically scrolls the page (simulating a spacebar press).
 
+Install dependencies with:
+```bash
+pip install opencv-python numpy pyautogui
