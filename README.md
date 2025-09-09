@@ -1,6 +1,6 @@
 # Hand-Gesture-Media-Control
 
-## 🎯 Project Overview
+## Project Overview
 This project uses computer vision to detect a yellow object using a webcam.  
 When the object moves upward, it triggers a key press (spacebar) using `pyautogui`.
 
