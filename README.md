@@ -1,2 +1,23 @@
 # Hand-Gesture-Media-Control
-A computer vision project that uses hand gestures to control Pinterest and Instagram. Detects specific movements of a colored object (like a yellow paper) via webcam and triggers automated
+# Webcam Motion Control 
+
+## 🎯 Project Overview
+This project uses computer vision to detect a yellow object using a webcam.  
+When the object moves upward, it triggers a key press (spacebar) using `pyautogui`.
+
+## ✅ Features
+- Real-time yellow object detection
+- Draws contours around the object
+- Presses spacebar when the object moves up
+- Displays live video feed and mask
+
+## ⚡ Requirements
+- Python 3.x  
+- OpenCV  
+- NumPy  
+- PyAutoGUI  
+
+Install dependencies with:
+```bash
+pip install opencv-python numpy pyautogui
+
